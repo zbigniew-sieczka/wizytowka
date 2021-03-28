@@ -1,11 +1,11 @@
-html  {
-    box-sizing: border-box;
+html {
+  box-sizing: border-box;
 }
 
 *,
- *:before,
- *:after  {
-    box-sizing: inherit;
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
 body {
@@ -32,4 +32,16 @@ body {
   width: 800px;
   padding: 32px;
   box-shadow: 5px 5px 10px rgb(0 0 0 / 50%);
+}
+
+.person {
+  display: flex;
+}
+
+.person__picture {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-right: 32px;
+  z-index: 2;
 }
