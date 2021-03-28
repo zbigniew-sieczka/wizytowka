@@ -9,12 +9,26 @@ html {
 }
 
 body {
+  background: rgb(212, 212, 212);
+  background: -moz-linear-gradient(
+    0deg,
+    rgba(212, 212, 212, 1) 0%,
+    rgba(212, 212, 212, 1) 38%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(212, 212, 212, 1) 0%,
+    rgba(212, 212, 212, 1) 38%,
+    rgba(255, 255, 255, 1) 100%
+  );
   background: linear-gradient(
     0deg,
     rgba(212, 212, 212, 1) 0%,
     rgba(212, 212, 212, 1) 38%,
     rgba(255, 255, 255, 1) 100%
   );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d4d4d4",endColorstr="#ffffff",GradientType=1);
   background-repeat: no-repeat;
   background-attachment: fixed;
   display: flex;
@@ -44,4 +58,34 @@ body {
   border-radius: 50%;
   margin-right: 32px;
   z-index: 2;
+}
+
+.person__name {
+  font-size: 36px;
+  font-weight: normal;
+  margin: 0;
+  color: #10a5df;
+}
+
+.person__position {
+  margin-top: 0;
+  font-style: italic;
+}
+
+.person__description {
+  line-height: 22px;
+}
+
+.person__link {
+  color: white;
+  text-decoration: none;
+}
+
+.person__link--backlight:hover {
+  color: #10a5df;
+}
+
+.special-text {
+  color: #10a5df;
+  font-weight: normal;
 }
