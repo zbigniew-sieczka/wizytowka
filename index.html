@@ -5,38 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Wizytówka - Zbigniew Sieczka</title>
-      
     <link href="normalize.css" rel="stylesheet" type="text/css" />
-      
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <main>
-      <article>
-        <img
+    <main class="main">
+      <article class="person">
+        <img class="person__picture"
           src="zs-foto.jpg"
           alt="Zdjęcie Zbigniew Sieczka - Specjalista ds. e-marketing & e-commerce"
         />
-        <header>
-          <h1>ZBIGNIEW SIECZKA</h1>
-          <p>Specjalista ds. e-marketing & e-commerce</p>
-          <p>
-            Jestem pasjonatem digital marketingu. Na przestrzeni lat zajmowałem
+        <header class="person__info">
+          <h1 class="person__name">ZBIGNIEW SIECZKA</h1>
+          <p class="person__position">Specjalista ds. e-marketing & e-commerce</p>
+          <p class="person__description">
+            Jestem pasjonatem <strong class="special-text">digital marketingu</strong>. Na przestrzeni lat zajmowałem
             się (bądź nadal zajmuje) wieloma aspektami związanymi z
             e-marketingiem i reklamą. Obecnie zdobywam doświadczenie w branży
             e-commerce oraz poznaję tajniki związane z frontendem (HTML, CSS i
             JS).
           </p>
-          <p>
-            Jestem nastawiony na dalsze poszerzanie wiedzy w zakresie SEO/SEM
-            (performance marketing) oraz ogólnie pojętego marketingu
-            internetowego i e-commerce.
+          <p class="person__description">
+            Jestem nastawiony na dalsze poszerzanie wiedzy w zakresie ogólnie pojętego <strong class="special-text">marketingu
+            internetowego, e-commerce</strong> oraz <strong class="special-text">frontendu</strong>.
           </p>
-          <p>
+          <p class="person__description">
             Prywatnie moim hobby jest jazda na rowerze oraz amatorskie starty w
             zawodach XCM.
           </p>
-          <p>W sieci: Linkedin, Behance, Instagram.</p>
+          <p class="person__description">W sieci:
+            <a
+            class="person__link person__link--backlight"
+            target="_blank"
+            href="https://pl.linkedin.com/in/zbigniew-sieczka"
+            >Linkedin</a
+          >,
+          <a
+          class="person__link person__link--backlight"
+          target="_blank"
+          href="https://github.com/zbigniew-sieczka"
+          >GitHub</a
+        >,
+          <a
+            class="person__link person__link--backlight"
+            target="_blank"
+            href="https://www.behance.net/zbigniew-sieczka"
+            >Behance</a
+          >.
+          </p>
         </header>
       </article>
     </main>
