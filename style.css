@@ -7,3 +7,29 @@ html  {
  *:after  {
     box-sizing: inherit;
 }
+
+body {
+  background: linear-gradient(
+    0deg,
+    rgba(212, 212, 212, 1) 0%,
+    rgba(212, 212, 212, 1) 38%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 16px;
+  font-family: "Lato", sans-serif;
+  color: white;
+}
+
+.main {
+  background: black;
+  border-radius: 16px;
+  width: 800px;
+  padding: 32px;
+  box-shadow: 5px 5px 10px rgb(0 0 0 / 50%);
+}
